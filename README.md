@@ -19,6 +19,6 @@ The packages involved in this project are:
 COMING SOON
 
 - Producing a graph for each of the days
-- Using the ratings provided to mark the stock as a buy, hold, or sell for a certain day
+- To use the ratings to mark the stock as a buy, hold, or sell for a certain day
 - Routing the error that occurs from entering a stock that does not exist into a loop that runs until the user inputs an actual stock
 - Sorting the headlines better by putting stocks into dates according to the time of the headline and how that corresponds with the current or next business day, and not just the day the news articles was released
