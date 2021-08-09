@@ -1,17 +1,15 @@
 #Description: This program will predict if the stock price of a company will change according to
 #             top news headlines. 
+#             The Sentiment_Table program was based on a guide I found
+#             and the other functions were things I created to help direct the output of Sentiment
+#             Analysis into something usable later.
 
-The Sentiment_Table program was based on a guide I found
-             and the other functions were things I created to help use the output of Sentiment
-             Analysis.
-
-import urllib.request, urllib.error
+# import urllib.error
 from urllib.request import urlopen, Request
 from bs4 import BeautifulSoup
-import os
 import pandas as pd
-import matplotlib.pyplot as plt
-%matplotlib inline
+# import matplotlib.pyplot as plt
+# %matplotlib inline
 import nltk
 nltk.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
